@@ -1,4 +1,4 @@
-# Tareas a Realizar
+# Diseño de Arquitectura para Sistema de Monopatines Eléctricos
 
 Identificar los principales `requerimientos funcionales` y de `calidad (no funcionales)` del sistema.
 
@@ -34,7 +34,6 @@ Identificar los principales `requerimientos funcionales` y de `calidad (no funci
 - Generacion de url para codigo QR.
 - Identificar monopatín por código QR.
 
-
 ### Requerimientos No Funcionales
 
 - El sistema debe estar disponible el 99% del año 
@@ -50,7 +49,7 @@ Identificar los principales `requerimientos funcionales` y de `calidad (no funci
 -  La aplicación móvil para los usuarios del servicio
 -  Debe contar con una aplicación Web para la gestión correspondiente.
 
-## Identificar los principales actores (o stakeholders) del sistema
+## Stakeholders
 
 - Usuario final.
 - El dueño de la aplicación.
@@ -73,7 +72,7 @@ Identificar los principales `requerimientos funcionales` y de `calidad (no funci
 - Mantenimiento de monopatines:
     - Como usuario de mantenimiento necesito saber el tiempo de uso y los kilómetros recorridos de cada monopatín para determinar si es requerido un mantenimiento.
 
-## Identificar los requerimientos de calidad, y vincularlos con los actores del sistema
+## Requerimientos de calidad & Vinculación
 
 - Performance.
     - Usuario final.
@@ -87,8 +86,12 @@ Identificar los principales `requerimientos funcionales` y de `calidad (no funci
 - Seguridad.
     - Usuario final.
 
-## Para cada requerimiento de calidad considerado identificado, definir distintos escenarios de calidad del requerimiento, y ordenarlos en un utility tree.
+## Utility tree.
 
-![]()
+![img](assets\img\utility-tree.jpeg)
 
-## Realizar una priorización de los requerimientos, en función de su importancia para el negocio y de su dificultad técnica
+- Lenyenda
+    - (Importancia, Complejidad).
+        - High - (H).
+        - Medium - (M).
+        - Low - (L).
