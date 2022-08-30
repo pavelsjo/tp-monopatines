@@ -88,7 +88,7 @@ Identificar los principales `requerimientos funcionales` y de `calidad (no funci
 
 ## Utility tree.
 
-![img](assets\img\utility-tree.jpeg)
+![img](https://raw.githubusercontent.com/pavelsjo/tp-monopatines/main/assets/img/utility-tree.jpeg)
 
 - Lenyenda
     - (Importancia, Complejidad).
