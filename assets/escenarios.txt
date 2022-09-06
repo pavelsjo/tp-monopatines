@@ -1,0 +1,44 @@
+Performance:
+Escenario 1:
+Fuente del estímulo: Usuario
+Estímulo: Operaciones realizadas por el usuario
+Artefacto: API Gateway y microservicios que involucren operaciones solicitadas por el usuario (pagar, solicitar un monopatin, pausar viaje, finalizar viaje, etc.
+Ambiente: Conexión a internet de al menos 10 Mb/s (red 4G)
+Respuesta: La operación solicitada por el usuario se realiza exitosamente
+Medida de la respuesta: La operación se realiza en un plazo menor a 10 segundos
+
+Disponibilidad:
+Escenario 1:
+Fuente del estímulo: Técnico que realiza el mantenimiento
+Estímulo: Realizar tarea de mantenimiento
+Artefacto: Sección del sistema que se encuentra en mantenimiento
+Ambiente: Domingos
+Respuesta: La tarea es realizada exitosamente o se aplica un proceso de rollback
+Medida de la respuesta: La tarea se realiza en un plazo máximo de 15 horas
+
+Escenario 2:
+Fuente del estímulo: Usuario final
+Estímulo: Operaciones realizadas por el usuario
+Artefacto: API Gateway y microservicios que involucren operaciones solicitadas por el usuario (pagar, solicitar un monopatin, pausar viaje, finalizar viaje, etc.
+Ambiente: Condiciones normales de lunes a sábados
+Respuesta: La operación solicitada por el usuario se realiza exitosamente
+Medida de la respuesta: La operación pudo ser realizada exitosamente en el 99% de los casos
+
+
+Escalabilidad:
+Escenario 1: 
+Fuente del estímulo: Usuarios
+Estímulo: Conexión con el servicio
+Artefacto: API Gateway y microservicios que involucren operaciones solicitadas por el usuario (pagar, solicitar un monopatin, pausar viaje, finalizar viaje, etc.
+Ambiente: Condiciones normales
+Respuesta: Usuarios se conectan exitosamente
+Medida de la respuesta: Hasta 100.000 usuarios se loguearon al mismo tiempo
+
+Seguridad:
+Escenario 1:
+Fuente del estímulo: Usuarios
+Estímulo: Comunicación con sistema
+Artefacto: API Gateway
+Ambiente: Condiciones normales
+Respuesta: El usuario se pudo comunicar con el sistema exitosamente
+Medida de la respuesta: El usuario pudo comunicarse con el sistema usando protocolo HTTPS para encriptar los datos

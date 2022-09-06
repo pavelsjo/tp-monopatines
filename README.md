@@ -1,5 +1,7 @@
 # Diseño de Arquitectura para Sistema de Monopatines Eléctricos
 
+Colaboraodres
+
 Identificar los principales `requerimientos funcionales` y de `calidad (no funcionales)` del sistema.
 
 ### Requerimientos Funcionales
@@ -58,6 +60,14 @@ Identificar los principales `requerimientos funcionales` y de `calidad (no funci
 - Proveedores de Monopatines.
 - Los que hacen mantenimiento.
 - Autoridades del Gobierno local.
+- Mercadopago
+
+Se asume que:
+
+    -  La gestion de compras de monopatines con su logistica será un proceso externo que no interactúa directamente con el sistema de monopatines.
+    -  Se puedre trabajar en un entorno fullcloud.
+
+![img](assets\img\diagrama-de-concepto.jpeg)
 
 ## User Stories
 
@@ -87,6 +97,8 @@ Identificar los principales `requerimientos funcionales` y de `calidad (no funci
     - Usuario final.
 
 ## Utility tree.
+
+[Escenarios](./assets/escenarios.txt)
 
 ![img](https://raw.githubusercontent.com/pavelsjo/tp-monopatines/main/assets/img/utility-tree.jpeg)
 
