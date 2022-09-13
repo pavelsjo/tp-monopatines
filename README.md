@@ -1,6 +1,4 @@
-# Diseño de Arquitectura para Sistema de Monopatines Eléctricos
-
-Colaboraodres
+# Diseño de Arquitectura para Sistema de Monopatines Eléctricos - [ADD](./assets/add.md)
 
 Identificar los principales `requerimientos funcionales` y de `calidad (no funcionales)` del sistema.
 
